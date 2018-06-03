@@ -7,10 +7,15 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 public class ChildProject2Application {
 
 	public static void main(String[] args) {
+		//Something to Do
 		System.out.println("HelloWorld2");
 		System.out.println("HelloWorld3");
 		System.out.println("HelloWorld4");
-
-		SpringApplication.run(ChildProject2Application.class, args);
+		Maahaha();
+		
+	}
+	
+	public static void Maahaha(){
+		System.out.println("Mwaahhahahahahah");
 	}
 }
