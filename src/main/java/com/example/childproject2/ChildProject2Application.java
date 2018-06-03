@@ -7,6 +7,8 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 public class ChildProject2Application {
 
 	public static void main(String[] args) {
+		System.out.println("HelloWorld2");
+
 		SpringApplication.run(ChildProject2Application.class, args);
 	}
 }
